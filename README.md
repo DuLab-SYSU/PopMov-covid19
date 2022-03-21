@@ -51,7 +51,7 @@ model_input_data.csv
 shipfile to draw the map
 gadm36_CHN_shp
 ```
-## result
+## results
 ```
 Protection or risk data under different travel ban policies
 additional_cases_no_travelban.csv
