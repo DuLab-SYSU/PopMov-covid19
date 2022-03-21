@@ -1,7 +1,8 @@
 # PopMov-covid19
 A linear regression model based on population flow and imported cases is used to evaluate the effect of COVID-19 lockdown policies and predict future risks.
 ## code
-‘’‘
+
+```
 ### Spider_BaiduQianxi.py
 Baiduqianxi big data released spider scripts of regional migration data during the 2020 Spring Festival travel rush
 
@@ -27,7 +28,7 @@ Then We build a linear regression model to compute the maximum likelihood estima
 
 ### mcmc_interval.py
 We generated a bootstrapped dataset by sampling 200 cities with replacement (half from the cities with more cases and half from the cities with fewer cases). Second, we reestimated 𝛽 and 𝛾 using the bootstrapped dataset. Third, we simulated case counts for all cities using re-estimated 𝛽 and 𝛾. These three steps were repeated 1000 times to generate 1000 simulated case counts from which the lower and upper PI bounds (2×5th and 97×5th percentiles) are computed.
-‘’‘
+```
 ## data
 ### Citycode and Population data for each city
 Citycode.csv
