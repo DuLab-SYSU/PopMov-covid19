@@ -45,6 +45,14 @@ qianxi_20200101-20200214_out.csv
 geographical coordinates of each nodes
 city_coordinates.csv
 
+Model input data
+model_input_data.csv
+
+shipfile to draw the map
+gadm36_CHN_shp
+```
+## result
+```
 Protection or risk data under different travel ban policies
 additional_cases_no_travelban.csv
 three-day-earlier_travelban.csv
@@ -55,18 +63,8 @@ reflux_risk_current.csv
 reflux_risk_travelban_for_Hubei.csv
 reflux_risk_without_travelban.csv
 
-Model input data
-model_input_data.csv
-
 Model parameters
 bootstrap_para_100
-
-shipfile to draw the map
-gadm36_CHN_shp
-```
-## result
-```
-The results get by the code in the code folder
 ```
 ## figures
 ```
